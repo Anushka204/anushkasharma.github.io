@@ -1,5 +1,20 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Anushka Sharma
 description: Turning Raw Data into Powerful Dashboards & Insights
+
+url: "https://yourusername.github.io"
+baseurl: ""
+
+remote_theme: alshedivat/al-folio
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+paginate: 5
+paginate_path: /blog/page:num/
+
