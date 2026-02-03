@@ -1,20 +1,7 @@
 title: Anushka Sharma
-description: Turning Raw Data into Powerful Dashboards & Insights
-
-url: "https://anushkasharma.github.io"
-baseurl: ""
-
-remote_theme: alshedivat/al-folio
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-paginate: 5
-paginate_path: /blog/page:num/
+logo: /image1.jpeg
+theme: jekyll-theme-minimal
+show_downloads: false
+github:
+  is_project_page: false
 
